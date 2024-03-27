@@ -1,6 +1,8 @@
 img{
-  width: 60%;
+  width: 55%;
+  height: 35%;
   align-self: center;
+  background-color: #999;
 }
 
 .card{
@@ -9,8 +11,9 @@ img{
   flex-direction: column;
   margin-left:5%;
   margin-right:5%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .row{
@@ -39,6 +42,7 @@ img{
   text-align: center;
   margin:20px;
   padding:5px;
+  border-radius: 2% ;
 }
 
 .homepage_links{
@@ -58,7 +62,12 @@ img{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex:1
+  flex:1;
+  padding: 60px;
+  text-align: center;
+  background: #ffffff;
+  or: rgb(18, 17, 17);
+  font-size: 30px;
 }
 
 .form_panel {
